@@ -1,4 +1,4 @@
-python visualizer_drag.py \
+python visualizer_drag_gradio.py \
     checkpoints/stylegan2_lions_512_pytorch.pkl \
     checkpoints/stylegan2-ffhq-512x512.pkl \
     checkpoints/stylegan2-afhqcat-512x512.pkl \
