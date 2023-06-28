@@ -6,4 +6,4 @@ RUN chmod 775 scripts/*.sh
 # RUN scripts/download_model.sh
 RUN pip install -r requirements.txt 
 EXPOSE 8050
-CMD [scripts/gui.sh]
+CMD [/src/scripts/gui.sh]
