@@ -1,4 +1,4 @@
-FROM nvcr.io/nvidia/pytorch:21.08-py3
+FROM nvcr.io/nvidia/pytorch:21.10-py3
 # FROM python:latest
 WORKDIR /src
 COPY . .
