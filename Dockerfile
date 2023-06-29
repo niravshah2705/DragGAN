@@ -1,5 +1,5 @@
-# FROM nvcr.io/nvidia/pytorch:21.08-py3
-FROM python:latest
+FROM nvcr.io/nvidia/pytorch:21.08-py3
+# FROM python:latest
 WORKDIR /src
 COPY . .
 RUN chmod 775 scripts/*.sh
