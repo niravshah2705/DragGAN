@@ -863,4 +863,4 @@ with gr.Blocks() as app:
 
 gr.close_all()
 app.queue(concurrency_count=3, max_size=20)
-app.launch(share=args.share,server=8050)
+app.launch(share=args.share,server_port=8050)
