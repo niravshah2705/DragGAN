@@ -87,8 +87,8 @@ def init_images(global_state):
     init_image = state['generator_params'].image
     state['images']['image_orig'] = init_image
     state['images']['image_raw'] = init_image
-    state['images']['image_show'] = Image.fromarray(
-        add_watermark_np(np.array(init_image)))
+    state['images']['image_show'] = Image.fromarray(np.array(init_image))
+        # add_watermark_np())
     state['mask'] = np.ones((init_image.size[1], init_image.size[0]),
                             dtype=np.uint8)
     return global_state
