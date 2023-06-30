@@ -24,7 +24,7 @@ RUN pip install --no-cache-dir -r requirements.txt
 
 WORKDIR /workspace
 COPY . . 
-RUN python /workspace/sripts/download_model.py
+RUN python /workspace/scripts/download_model.py
 # RUN (printf '#!/bin/bash\nexec \"$@\"\n' >> /entry.sh) && chmod a+x /entry.sh
 EXPOSE 8050
 # ENTRYPOINT ["/entry.sh"]
