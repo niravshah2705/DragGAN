@@ -62,8 +62,7 @@ def main():
     config_file_path = os.path.join(script_dir, "download_models.json")
 
     # Set download directory
-    download_dir_name = "checkpoints"
-    download_dir = os.path.join(script_dir,download_dir_name)
+    download_dir = "checkpoints"
     os.makedirs(download_dir, exist_ok=True)
 
     # Load URL and filenames from JSON
